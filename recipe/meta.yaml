@@ -1,13 +1,13 @@
 {% set name = "pkginfo" %}
-{% set version = "1.12.1.2" %}
+{% set version = "1.13" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pkginfo-{{ version }}.tar.gz
-  sha256: 5cd957824ac36f140260964eba3c6be6442a8359b8c48f4adf90210f33a04b7b
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pkginfo-{{ version }}.tar.gz
+  sha256: 4f70471c643f71fe84a06230c0e33c5c5b12a33b2fd21bff14ddaef5a974adb1
 
 build:
   entry_points:
